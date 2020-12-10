@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminUsername": {
+            "value": "DEVKAdmin"
+        },
+
+        "adminPassword": {
+            "reference": {
+              "keyVault": {
+                "id": "/subscriptions/6156a257-a6a4-4463-807a-7154926ce6e4/resourceGroups/notepadapp/providers/Microsoft.KeyVault/vaults/keyVaultNotepad"
+              },
+              "secretName": "notepadLogin"
+            }
+          },
+          "vmName": {
+              "value": "NotepadVM"
+          }
+    }
+}
