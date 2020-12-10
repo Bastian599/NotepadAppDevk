@@ -80,7 +80,7 @@
         "publicIpName": "notepadVM-PublicIP",
         "osDiskname": "osDisk",
         "customScriptName": "[concat(parameters('vmName'),'Script')]",
-        "scriptURL":"https://raw.githubusercontent.com/Bastian599/ChocolateyInstall/main/SimpleDevBox.ps1"
+        "scriptURL":"https://raw.githubusercontent.com/Bastian599/NotepadAppDevk/master/SimpleDevBox.ps1"
     },
     "resources": [
 
