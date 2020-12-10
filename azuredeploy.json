@@ -188,7 +188,7 @@
                                 "id": "[resourceId('Microsoft.Network/publicIPAddresses', variables('publicIpName'))]"
                             },
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('subnetRef'))]"
+                                "id": "[variables('subnetRef')]"
                             }
                         }
                     }
