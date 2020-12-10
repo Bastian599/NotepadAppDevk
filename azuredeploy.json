@@ -79,7 +79,7 @@
         "networkSecurityGroupName": "[concat(parameters('vmName'),'-','nsg')]",
         "publicIpName": "notepadVM-PublicIP",
         "osDiskname": "osDisk",
-        "customScriptName": "[concat(parameters('vmName'),'Script')]",
+        "customScriptName": "[concat(parameters('vmName'),'/script')]",
         "scriptURL":"https://raw.githubusercontent.com/Bastian599/NotepadAppDevk/master/SimpleDevBox.ps1"
     },
     "resources": [
