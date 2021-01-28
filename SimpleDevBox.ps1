@@ -4,4 +4,4 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 # Install Software
 choco install visualstudiocode -y
 choco install git -y 
-choco install nodejs-lts  -y
+choco install firefox -y
