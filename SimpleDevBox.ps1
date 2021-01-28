@@ -8,10 +8,10 @@ $Packages = 'googlechrome',`
             'git',`
             'notepadplusplus',`
             'citrix-workspace',`
-            'openconnect-gui',`
             'azure-cli',`
             'microsoftazurestorageexplorer',`
-            'azure-cosmosdb-emulator'
+            'azure-cosmosdb-emulator',`
+            'openconnect-gui'
 
 #Install Packages
 ForEach ($PackageName in $Packages)
