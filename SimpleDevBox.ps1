@@ -6,9 +6,12 @@ Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://cho
 $Packages = 'googlechrome',`
             'visualstudiocode',`
             'git',`
-            'visualstudio2017community',`
-            'visualstudio2017-workload-azure',`
-            'visualstudio2017-workload-netweb'
+            'notepadplusplus',`
+            'citrix-workspace',`
+            'openconnect-gui',`
+            'azure-cli',`
+            'microsoftazurestorageexplorer',`
+            'azure-cosmosdb-emulator'
 
 #Install Packages
 ForEach ($PackageName in $Packages)
